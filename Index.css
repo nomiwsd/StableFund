@@ -1,0 +1,417 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+@media (min-width: 992px){
+.navbar-expand-lg {
+     flex-wrap: nowrap;
+     justify-content: start;
+   
+}}
+.navbar-nav{
+    font-size: 16px;
+    font-family: "Poppins", Sans-serif;
+    color:black;
+    font-weight:600;
+    
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.navbar-toggler{
+    
+    float: right;
+}
+
+a{
+    color:black;
+}
+a:active{
+    color: rgb(15, 15, 199)!important;
+}
+a:hover{
+    color: mediumblue !important;
+}
+.btn{
+    font-family: 'Ubuntu', sans-serif;
+   font-size: 18px;
+    padding:8px 20px;
+    color: white;
+    border-radius: 10px;
+background-color: blue;
+}
+.btn:hover{
+    color: white;
+}
+.offcanvas-body{ font-family: 'Ubuntu', sans-serif;
+font-size: 18px;
+}
+.home{
+    font-size: 13px;
+    font-family: "Poppins", Sans-serif;
+}
+.homehead{
+    font-size: 35px;
+    font-family: "Poppins", Sans-serif;
+}
+.chi{
+    margin-top: 20px;
+    margin-right: 5px;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px !important;
+    line-height: 1;
+    color:white;
+        background-color:#005FF9;
+        border-radius: 15px;
+    }
+.list{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.imgcontainer {
+    animation-name: Lion23;
+    animation-duration:3s;
+    animation-direction: reverse;
+    position: relative;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+  }
+  @keyframes Lion23 {
+    0% {
+      bottom: 0px;
+    }
+    100% {
+    top:0px;
+      bottom: 10px;
+    }
+  }
+/*  */
+.card{
+    background-color:#f5f0f0;
+    border-radius: 25px;
+    border-bottom: 4px solid blue;
+    box-shadow: 5px 10px 25px #888888;
+}
+.mainhead{
+    font-weight: 700;
+    text-align: center;
+    font-family: "Poppins", Sans-serif;
+}
+.card-text1{
+    color: #2E2E2E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.swap{
+    color: #2E2E2E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.sect{
+    background-color:#005FF9;
+    color: white;
+}
+.btn2{
+    border-color: white;
+    font-family: 'Ubuntu', sans-serif;
+   font-size: 18px;
+    color: white;
+    border-radius: 10px;
+background-color: white;
+color: #005FF9;
+}
+.btn2:hover{
+    color:white;
+    background-color: #005FF9;
+    border-color:#005FF9;
+}
+.swiper {
+    padding: 100px;
+    width: 90%;
+    height: 90%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex !important;
+    justify-content: center !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center !important;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    padding: 30px;
+    width: 270px;
+    height: 415px;
+    object-fit: cover;
+  }
+  .mainhead1{
+    color: #005FF9;
+  }
+  .form-control{
+    background-color: whitesmoke;
+  }
+  .btn3{
+    border-color:#005FF9; 
+    font-family: 'Ubuntu', sans-serif;
+   font-size: 18px;
+    padding:8px 20px;
+    border-radius: 10px;
+    color:white;
+    background-color: #005FF9;}
+
+.btn3:hover{
+    background-color: white;
+color: #005FF9; 
+    border-color:#005FF9;
+}
+input[placeholder] {
+    font-weight: lighter;
+   font-size:15px;
+}
+.swiper-button-next{
+    width: 20px;
+    height: 5px;
+}
+.btn4{
+    border-color:black;
+    font-family: 'Ubuntu', sans-serif;
+   font-size: 18px;
+   margin: 5px;
+    padding:8px 20px;
+    color: white;
+    border-radius: 10px;
+background-color:black;
+color:white;
+}
+.imgr{
+    --bs-gutter-x:0.5rem;
+}
+.footerimg{
+    width: 131px;
+    height: 88px;
+}
+.footerfonts{
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+.footerfonts:hover{
+    color: black !important;
+}
+.text{ 
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+}
+.loginform{
+    overflow-x: hidden;
+     position: relative;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: #f9f9f9!important;
+    box-shadow: 5px 10px 25px #888888;
+}
+.header img{
+    width: 20%;
+}
+.imgcon{
+    position:relative;
+    transform: translateY(-50%);
+}
+.cardh{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+.card-text{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
+    
+    @media (min-width: 1025px) {
+    .h-custom-2 {
+    height: 100%;
+    }
+    }
+    .btn5{ 
+        border-color:black;
+        font-family: 'Ubuntu', sans-serif;
+       font-size: 18px;
+       margin: 5px;
+        padding:8px 80px;
+        color: white;
+        border-radius: 10px;
+    background-color:#005FF9;
+    }
+    .loginlink{
+        text-decoration: none;
+        padding: 10px;
+        color: black !important;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;
+    }
+    .loginlink:hover{
+        color: black;
+    }
+    .call{
+        color:#005FF9;
+        background-color: #f5f0f0;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 5px 10px 10px #888888;
+    }
+    .signup{
+        text-decoration: none;
+        color:#005FF9;
+    }
+  .loginform{
+    border-radius: 20px;
+    border: 3px solid  #f5f0f0;;
+  }
+  .navandhome{
+    overflow-y: hidden;
+  }
+  .vdo{
+    width: 300px;
+    position: relative;
+    left: 360px;
+    bottom: 130px;
+  }
+  .main{
+    vertical-align: middle;
+    position: relative;
+    right: 430px;
+    bottom: 50px;
+  }
+  .first{
+    position: relative;
+    right:830px;
+  }
+  .second{
+    position:relative;
+    right:530px;
+  }
+  .third{
+    position: relative;
+    right:850px;
+  }
+  .formlabel {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color:#205fb3
+}
+.maintitle {
+    font-weight: 500!important;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #1d569f;
+}
+.inputfield {
+    position: relative;}
+   .inputfield i {
+        position: absolute;
+        top: 16px;
+        right: 10px;
+    }
+    .btn__primary {
+        background: #0200e1!important;
+        border-radius: 10px!important;
+        border: 0!important;
+       }
+        .text__primary {
+            color: #0200e1!important;
+       
+       text-decoration: none; }
+       .forget__password {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: #2e2e2e;
+        cursor: pointer;
+    }
+    .auth-card__hero-video {
+        display: flex;
+        right: 0;
+        background: #fff;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .auth-card__hero {
+        right: 0;
+        background: #f4fbff;
+    }
+    .auth-card {
+        height: 100%;
+        width: 50%;
+        position:fixed;
+        z-index: 1;
+        top: 0;
+        overflow-y:hidden;
+        overflow-x: hidden;
+    }
+    .lnkd{
+        text-decoration: none;
+        color:#0200e1;
+    }
+    @media (min-width: 1024px){
+        .imgwd{
+            transform: translateY(-45px);
+        }
+    }
+    @media (min-width: 1440px){
+        .imgwd{
+            transform: translateY(-75px);
+        }
+    }
+    .crd{
+        height: 100%;
+        width: 100%;
+    }
+    .fsd{
+        font-size: 14px;
+    }
+    .tgic
+    {
+        fill: #005FF9;
+        stroke:rgba(43, 13, 211, 0.5);
+       
+    }
